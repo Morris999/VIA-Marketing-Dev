@@ -37,7 +37,7 @@
     position: absolute;
     border-radius: 10px;
     top: -18px;
-    left: 19%;
+    left: 18%;
     transform: translatex(-50%);
     animation: dot-color-change1 9s infinite;
 }
@@ -91,7 +91,7 @@
   position: absolute;
   margin: 0px;
   top: 14.5px;
-  left:5%;
+  left:4%;
   background-color: #C4C4C4;
   border: none;
   height: 3px;
@@ -115,9 +115,9 @@
 }
 
 .column {
-  float: left;
-  width: 30%;
-  padding: 20px;
+  float: left ;
+  width: 33.3%;
+  /* padding: 20px; */
 }
 
 .center-text {
@@ -159,8 +159,8 @@
 
 @keyframes dot-color-change1 {
     0% { border: 2px solid #fff; }
-    12% { border: 2px solid #fff; }
-    13% { border: 2px solid #3083df; }
+    11% { border: 2px solid #fff; }
+    12% { border: 2px solid #3083df; }
     100% { border: 2px solid #3083df; }
 }
 
